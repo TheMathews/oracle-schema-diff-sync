@@ -1,0 +1,16 @@
+{
+    "BBDD_ORIGEN": {
+        "servidor": "10.0.0.10",
+        "puerto": "1521",
+        "database": "ORCL_PROD",
+        "usuario": "DB_AUDITOR",
+        "password": "CHANGE_ME_ORIGIN_PASS"
+    },
+    "BBDD_DESTINO": {
+        "servidor": "10.0.0.20",
+        "puerto": "1521",
+        "database": "ORCL_STAGING",
+        "usuario": "DB_AUDITOR",
+        "password": "CHANGE_ME_TARGET_PASS"
+    }
+}

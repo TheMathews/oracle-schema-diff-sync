@@ -1,0 +1,14 @@
+{
+    "esquema_origen": "CORE_MASTER_SCHEMA",
+    "esquema_destino": "CORE_REPLICA_SCHEMA",
+    "objetos_a_comparar": [
+        "TABLE",
+        "VIEW",
+        "PROCEDURE",
+        "FUNCTION",
+        "PACKAGE",
+        "PACKAGE BODY",
+        "TRIGGER"
+    ],
+    "comparar_columnas": true
+}

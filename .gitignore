@@ -1,0 +1,23 @@
+# Byte-compiled / caché de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Entornos virtuales
+venv/
+.venv/
+env/
+
+# CRÍTICO: Ignorar reportes autogenerados y scripts SQL de salida
+reporte_diferencias.md
+*.sql
+
+# Configuraciones locales privadas
+config/*.local.json
+.env
+
+# IDEs y Sistema Operativo
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
